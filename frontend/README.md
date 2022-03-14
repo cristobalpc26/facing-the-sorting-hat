@@ -9,6 +9,9 @@ Make sure to install the dependencies
 ```bash
 yarn install
 ```
+```bash
+npm install
+```
 
 ## Development
 
@@ -17,6 +20,9 @@ Start the development server on http://localhost:3000
 ```bash
 yarn dev
 ```
+```bash
+npm run dev
+```
 
 ## Production
 
@@ -24,6 +30,9 @@ Build the application for production:
 
 ```bash
 yarn build
+```
+```bash
+npm run build
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
