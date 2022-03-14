@@ -1,0 +1,15 @@
+.user-answer-options,
+.user-answer-option-li {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.user-answer-options-wrapper {
+  list-style: none;
+  max-width: 40%;
+}
+
+.user-answer-option-li {
+  margin: 10px 0;
+}

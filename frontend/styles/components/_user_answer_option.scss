@@ -1,0 +1,21 @@
+.user-answer-option {
+  width: max-content;
+  border-radius: 10px;
+  border: 1px solid $user-answer-color;
+  color: $user-answer-color;
+  padding: 10px;
+  transition: 0.2s;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  animation: fade-in 0.5s ease-in-out;
+  &:hover {
+    color: white;
+    background-color: $user-answer-color;
+  }
+}
+
+@keyframes fade-in {
+  from {transform: translateX(30%); opacity: 0;}
+  to {transform: translateX(0); opacity: 1;}
+}

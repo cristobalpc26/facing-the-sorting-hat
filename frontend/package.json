@@ -7,5 +7,11 @@
   },
   "devDependencies": {
     "nuxt3": "latest"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
+    "tiny-emitter": "^2.1.0"
   }
 }

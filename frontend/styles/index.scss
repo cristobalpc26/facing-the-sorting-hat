@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+$user-answer-color: #378805;
+
+@import './layouts/topbar';
+@import './components/bot_question';
+@import './components/user_answer_option';
+@import './components/user_selected_answer';
+@import './components/user_options_wrapper';
+@import './components/user_text_input';
+
+html * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sen" Helvetica;
+}
+
+.body-position {
+  padding: 0 20%;
+  height: 20px;
+}

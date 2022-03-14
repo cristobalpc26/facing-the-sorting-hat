@@ -1,0 +1,13 @@
+.user-answer-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.user-selected-answer {
+  border-radius: 10px 10px 0 10px;
+  background-color: $user-answer-color;
+  width: max-content;
+  max-width: 40%;
+  color: white;
+  padding: 10px;
+}
