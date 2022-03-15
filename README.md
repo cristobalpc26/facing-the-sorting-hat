@@ -1,5 +1,5 @@
 # facing-the-sorting-hat
-WITH Madrid recruitment test. It includes the application and its docs in Vuepress. 
+WITH Madrid recruitment test, a selection process for Hogwarts Houses. It includes the application and its docs in Vuepress. 
 Docs include components, pages and a guide to include new documentation for new components.
 
 ## Technologies
@@ -42,7 +42,7 @@ npm run build
 
 ## Docs
 
-Run documentation for components and pages (in VIEWS tab).
+Run documentation for components (COMPONENTS tab) and pages (in VIEWS tab).
 
 ```bash
 npm run docs:dev
