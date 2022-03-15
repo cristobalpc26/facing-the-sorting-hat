@@ -2,14 +2,23 @@
   border-radius: 10px 10px 10px 0;
   background-color: #202020;
   width: max-content;
-  max-width: 40%;
+  max-width: 45%;
   color: white;
   padding: 10px;
-  animation: fade-in-left 0.5s;
   margin: 10px 0;
+}
+
+.animate-bot-question {
+  animation: fade-in-left 0.5s;
 }
 
 @keyframes fade-in-left {
   from {transform: translateX(-30%); opacity: 0;}
   to {transform: translateX(0); opacity: 1;}
+}
+
+@media (max-width: 570px) {
+  .bot-question {
+    max-width: 48%;
+  }
 }

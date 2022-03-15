@@ -10,4 +10,10 @@
   max-width: 40%;
   color: white;
   padding: 10px;
+  animation: opacity-to-one 0.5s;
+}
+
+@keyframes opacity-to-one {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }

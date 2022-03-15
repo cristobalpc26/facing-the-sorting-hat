@@ -18,35 +18,19 @@
 <script>
 import eventBus from '../utils/eventBus'
 
+/**
+ * Wrapper for the possible answers 
+ */
 export default {
   name: 'user-options-wrapper',
   props: {
+    /**
+     * Actual question/answer pair
+     */
     actualSurveyData: {
       type: Object,
       required: true,
-      default: () => {
-        return [
-          {
-            "title": "Dawn",
-            "scores": {
-              "g": 100,
-              "r": 100,
-              "h": 0,
-              "s": 0
-            }
-          },
-          {
-            "title": "Dusk",
-            "scores": {
-              "g": 0,
-              "r": 0,
-              "h": 100,
-              "s": 100
-            }
-          }
-        ]
-      }
-    }
+    },
   },
 
   methods: {
@@ -57,6 +41,7 @@ export default {
         scores: answer.scores
       })
     }
-  }
+  },
+
 }
 </script>

@@ -21,7 +21,9 @@
 
 <script>
 import eventBus from '../utils/eventBus'
-
+/**
+ * Text input with some style. At submit, it has a eventBus event called 'set-username' that receives the input text name
+ */
 export default {
   name: 'user-text-input',
 

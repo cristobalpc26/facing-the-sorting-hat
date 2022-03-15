@@ -1,0 +1,35 @@
+#greetings-results-title {
+  text-align: center;
+  font-weight: normal;
+  animation: fade-from-top 1.5s;
+}
+
+#results-image-wrapper {
+  text-align: center;
+}
+
+#results-house-img {
+  width: 400px;
+  margin: 15px 0;
+  animation: opacity-to-one 2s;
+}
+
+@keyframes fade-from-top {
+  from {opacity: 0; transform: translateY(-50%);}
+  to {opacity: 1; transform: translateY(0);}
+}
+
+@media (max-width: 890px) {
+  #results-house-img {
+    width: 300px;
+  } 
+  #greetings-results-title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 350px) {
+  #results-house-img {
+    width: 200px;
+  } 
+}

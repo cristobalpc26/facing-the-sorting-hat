@@ -3,15 +3,20 @@
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
-    "start": "node .output/server/index.mjs"
+    "docs:dev": "node ./docs/.vuepress/functions/preprocess.js && vuepress dev docs",
+    "docs:build": "node ./docs/.vuepress/functions/preprocess.js && vuepress build docs"
   },
   "devDependencies": {
-    "nuxt3": "latest"
+    "@vuepress/plugin-register-components": "^2.0.0-beta.27",
+    "@vuepress/plugin-search": "^1.8.2",
+    "nuxt3": "latest",
+    "vuepress": "^2.0.0-beta.27"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
     "sass": "^1.49.9",
     "sass-loader": "^12.6.0",
-    "tiny-emitter": "^2.1.0"
+    "tiny-emitter": "^2.1.0",
+    "vue-docgen-api": "^4.44.18"
   }
 }

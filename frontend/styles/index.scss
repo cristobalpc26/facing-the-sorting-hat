@@ -3,11 +3,14 @@
 $user-answer-color: #378805;
 
 @import './layouts/topbar';
+
 @import './components/bot_question';
 @import './components/user_answer_option';
 @import './components/user_selected_answer';
 @import './components/user_options_wrapper';
 @import './components/user_text_input';
+
+@import './pages/results';
 
 html * {
   margin: 0;
@@ -16,7 +19,22 @@ html * {
   font-family: "Sen" Helvetica;
 }
 
-.body-position {
-  padding: 0 20%;
-  height: 20px;
+.place-body {
+  padding: 10px 20% 15px 20%;
+  height: max-content;
 }
+
+@media (max-width: 1300px) {
+  .place-body {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+}
+
+@media (max-width: 570px) {
+  .place-body {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+}
+

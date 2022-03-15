@@ -1,18 +1,28 @@
 #topbar {
   //border-bottom: 1px solid #202020;
-  //background-color: #202020;
+  background-color: white;
   box-shadow: 0 -1px 10px #202020;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 15px;
+  /*position: fixed;
+  width: 100%;
+  height: 100px;*/
 }
 
 #hogwarts-img {
   width: 70px;
-  margin: 15px;
+  margin: 10px;
 }
 
 #main-title {
   font-weight: normal;
 }
+
+@media (max-width: 660px) {
+  #main-title {
+    font-size: 20px;
+  }
+}
+
